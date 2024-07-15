@@ -1,0 +1,64 @@
+.card-img-top {
+    height: 300px;
+    width: 400px;
+}
+.row {
+    margin-top: 50px;
+}
+.card-body {
+    width: 400px;
+}
+.card{
+    width: 400px;
+    background-color: #9e403d;
+}
+
+
+.card-text{
+    color: whitesmoke;
+}
+.w-100 {
+    margin-left: auto;
+    margin-right: auto;
+}
+.w-100 {
+  width: 70%!important;
+}
+.carousel-control-prev-icon {
+  background-image: url(/img/flecha1.png);
+}
+.carousel-control-next-icon {
+  background-image: url(/img/flecha2.png);
+}
+.accordion-button collapsed{
+    color: white;
+}
+.form-control {
+    width: 522.66px;
+    height: 38px;
+}
+body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(/img/Modern-Fitness.png) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+
+.accordion-header, .accordion-button, .accordion-collapse, .card, .card-text, .card-body{
+    background-color:  #692a51;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #692a51;
+}
+.accordion-body {
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.5;
+}
+.accordion {
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-color: white;
+}

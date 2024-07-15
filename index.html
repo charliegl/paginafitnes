@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fitness Zone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body class="body">
+    <header data-bs-target="#Home">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="margin:0; padding:0">
+        <div class="container-fluid" style="background-color: #F5514B;">
+          <a class="navbar-brand" href="#">Fitness Zone</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Más información</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img width="900" height="600" src="/img/fitness.png" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <a href="https://tienda-sportfitness.com/ciudad/tienda-deportiva-bucaramanga.html" target="_blank">
+                <div class="carousel-item">
+                  <img width="900" height="600" src="/img/implementos.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Artículos deportivos</h5>
+                  </div>
+                </div>            
+              </a>
+              <a href="https://fitnesspeoplecolombia.com/#" target="_blank">
+                <div class="carousel-item">
+                  <img width="900" height="600" src="/img/zonamaquinas.png" class="d-block w-100" alt="maquinas">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Espacios de entrenamiento</h5>
+                  </div>
+                </div>
+              </a>
+              <a href="ropa.html" target="_blank">
+               <div class="carousel-item">
+                <img width="900" height="600" src="/img/ropafoto.png" class="d-block w-100" alt="ropa">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Ropa deportiva</h5>
+                </div>
+              </div> 
+              </a>
+              <a href="entrenamientos.html" target="_blank">
+              <div class="carousel-item">
+                <img width="900" height="600" src="/img/entrenamientos.png" class="d-block w-100" alt="entrenamientos">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Entrenamientos</h5>
+                </div>
+              </div>
+              </a>
+              <a href="https://globalnutrition.com.co/categoria-producto/nutricion-deportiva/?utm_source=google&utm_medium=cpa&utm_campaign=google_cpa_search_global_suplementos&utm_id=dsm_global_2023&&utm_campaign=&utm_term=suplemento%20nutricional&utm_source=adwords&utm_medium=ppc&ctf_src=g&ctf_net=adwords&ctf_mt=p&ctf_grp=149794783640&ctf_ver=1&ctf_cam=18954039333&ctf_kw=suplemento%20nutricional&ctf_acc=874-814-6342&ctf_ad=652212506306&ctf_tgt=kwd-md-lg-x1-452191142&gclid=EAIaIQobChMIz8b_mtPu_gIVW_bjBx26YQHAEAMYASAAEgJngvD_BwE" class="list-group-item list-group-item-action" target="_blank">
+                <div class="carousel-item">
+                  <img width="900" height="600" src="/img/suple.png" class="d-block w-100" alt="suplementos">
+                  <div class="carousel-caption d-none d-md-block">
+                  <h5>Suplementos</h5>
+                  </div>
+                </div>
+                </a>
+    
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+    </header>
+    <section>
+      <div class="container" id="sec">
+        <div class="row">
+          <div class="col col-md-lg-x1-4 ">
+            <div class="card">
+              <img src="./img/tendencias-fitness.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-text">Programas fitness sólo para adultos</h1>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapseOne">
+                        Introducción
+                      </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Las personas viven más, trabajan más y se mantienen saludables y activas hasta bien entrada la jubilación. De ahí que los gimnasios puedan abrir un nicho de mercado entre un público que tenían bastante olvidado, pues se habían centrado más en los jóvenes. Sin embargo, estas personas en general tienen más poder adquisitivo, y los centros deportivos pueden sacar provecho de este nicho en crecimiento. En CrossFit Coraje, un box referente en Móstoles, han desarrollado un programa online para empezar de cero en este entrenamiento independientemente de la edad. 
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapseTwo">
+                        Horarios
+                      </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Lunes a Viernes</strong>(7:00am-11:00pm) <br>
+                        <strong>Lunes a Viernes</strong>(13:00pm-17:00pm) <br>
+                        <strong>Lunes a viernes</strong>(18:00pm-22:00pm) <br>
+                        <strong>Sábado</strong>(8:00am-12pm)
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapseThree">
+                        Lugar
+                      </button>
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Calle 45 #45-65</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-lg-x1-4">
+            <div class="card">
+              <img src="./img/hombre_solo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-text">Entrenamiento personal</h1>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapseOne">
+                        <strong>Introducción</strong> 
+                      </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        ¿Por qué un entrenador personal es la mejor opción para hacer ejercicio en la pandemia? Ante la dificultad de reservar clases por la reducción de aforos, la necesidad de entrenar con mascarilla e incluso el miedo que algunos usuarios tienen al regreso al gimnasio, cada vez más personas barajan la posibilidad de entrenar con profesionales en sesiones privadas uno-uno. La figura de un entrenador personal juega un papel importante para evitar lesiones y definir objetivos alcanzables. Y ya no es considerado un lujo, sino una inversión en salud.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                        Horarios
+                      </button>
+                    </h2>
+                    <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Lunes a Viernes</strong>(7:00am-11:00pm) <br>
+                        <strong>Lunes a Viernes</strong>(13:00pm-17:00pm) <br>
+                        <strong>Lunes a viernes</strong>(18:00pm-22:00pm) <br>
+                        <strong>Sábado</strong>(8:00am-12pm)
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapseThree">
+                        Locación
+                      </button>
+                    </h2>
+                    <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Carrera 27 #65-md-lg-x1-42</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-lg-x1-4">
+            <div class="card">
+              <img src="/img/coachingsalud.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-text">Coaching de <br> salud</h1>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapseOne">
+                        Introducción
+                      </button>
+                    </h2>
+                    <div id="collapse7" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        a no nos sirve sólo con entrenar en un gimnasio. Ahora queremos un cuidado de la salud integral, que incluya desde el fisioterapeuta a las pautas nutricionales. Esta es una tendencia que integra la ciencia del comportamiento en los programas de promoción de la salud, entendido como un estilo de vida global. El coaching de salud / bienestar utiliza un enfoque de uno-uno (y en ocasiones en grupos pequeños) con el coach brindando apoyo, establecimiento metas, orientando al cliente y alentándolo en su día a día. El entrenador se enfoca en los valores, necesidades, visión y metas del cliente a corto y largo plazo utilizando estrategias de intervención para cambios de comportamiento.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapseTwo">
+                        Horarios
+                      </button>
+                    </h2>
+                    <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Lunes a Viernes</strong>(7:00am-11:00pm) <br>
+                        <strong>Lunes a Viernes</strong>(13:00pm-17:00pm) <br>
+                        <strong>Lunes a viernes</strong>(18:00pm-22:00pm) <br>
+                        <strong>Sábado</strong>(8:00am-12pm)
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapseThree">
+                        Locación
+                      </button>
+                    </h2>
+                    <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Carrera 33 #41-md-lg-x1-46</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-lg-x1-4">
+            <div class="card">
+              <img src="./img/entrenamiendo_funcional.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-text">Entrenamiento <br> Funcional</h1>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="true" aria-controls="collapseOne">
+                        Introducción
+                      </button>
+                    </h2>
+                    <div id="collapse10" class="accordion-collapse collapse show" data-bs-parent="#accordionExample1">
+                      <div class="accordion-body">
+                        Esta es una tendencia hacia el uso del entrenamiento de fuerza para mejorar el equilibrio, la coordinación, la fuerza muscular y la resistencia para las actividades de la vida diaria, típicamente para adultos mayores y también en poblaciones clínicas. Es decir, que seas capaz de coger a tu hijo en brazos de 10 kilos sin lesionarte o llevar las bolsas de la compra sin sudar en exceso. La fuerza es una capacidad que mejora el resto de la condición física.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapse11">
+                        Horarios
+                      </button>
+                    </h2>
+                    <div id="collapse11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Lunes a Viernes</strong>(7:00am-11:00pm) <br>
+                        <strong>Lunes a Viernes</strong>(13:00pm-17:00pm) <br>
+                        <strong>Lunes a viernes</strong>(18:00pm-22:00pm) <br>
+                        <strong>Sábado</strong>(8:00am-12pm)
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapseThree">
+                        Locación
+                      </button>
+                    </h2>
+                    <div id="collapse12" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Calle 13 #96-12 Barrio Río de oro</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-lg-x1-4">
+            <div class="card">
+              <img src="./img/entrenamiento-virtual.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-text">Entrenamiento virtual</h1>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="true" aria-controls="collapse">
+                        Introducción
+                      </button>
+                    </h2>
+                    <div id="collapse13" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Por primera vez en esta encuesta el entrenamiento virtual se separa del online, creando una categoría propia. ¿Por qué? Por lo general, los entrenamientos virtuales se realizan en gimnasios en una pantalla grande y atraen a un menor número de clientes en comparación con las clases en vivo. Se trata de una experiencia de fitness grupal diferente. Sin embargo, ahora, al igual que con la captación online, que permite una personalización máxima, la captación virtual es una reacción de la industria a la pandemia, por lo que la experiencia se ha mejorado en niveles y hasta apostando por el gaming que permite entrenar a una sola persona.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapseTwo">
+                        Horarios
+                      </button>
+                    </h2>
+                    <div id="collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Lunes a Viernes</strong>(7:00am-11:00pm) <br>
+                        <strong>Lunes a Viernes</strong>(13:00pm-17:00pm) <br>
+                        <strong>Lunes a viernes</strong>(18:00pm-22:00pm) <br>
+                        <strong>Sábado</strong>(8:00am-12pm)
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapseThree">
+                        Locación
+                      </button>
+                    </h2>
+                    <div id="collapse15" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Diagonal 8 #55-39</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-lg-x1-4">
+            <div class="card">
+              <img src="./img/hiit_960x540-v2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-text">Entrenamiento <br> HIIT</h1>
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse16" aria-expanded="true" aria-controls="collapseOne">
+                        Introducción
+                      </button>
+                    </h2>
+                    <div id="collapse16" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        Son las siglas de High Intensity Interval Training o entrenamiento en intervalos de alta intensidad. Aunque hace unos años fueron denostados por el gran esfuerzo que requieren en menos tiempo, con aquella publicidad de que no eran aptos para todo el mundo ni se podían hacer todos los días, la realidad es que queman calorías durante un tiempo más prolongado de hasta 24 horas y hoy, cuando apenas disponemos de momentos para dedicar al ejercicio en vidas muy frenéticas, se han puesto muy de moda. "Es lo que se conoce como afterburn effect o EPOC. En español, una deuda de oxígeno post entrenamiento, que produce un efecto de quema calórica prolongada", explica Marina Durán Parejo, Branch Manager de Ritual Gym, el gimnasio de los 30 minutos.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse17" aria-expanded="false" aria-controls="collapseTwo">
+                        Horarios
+                      </button>
+                    </h2>
+                    <div id="collapse17" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>Lunes a Viernes</strong>(7:00am-11:00pm) <br>
+                        <strong>Lunes a Viernes</strong>(13:00pm-17:00pm) <br>
+                        <strong>Lunes a viernes</strong>(18:00pm-22:00pm) <br>
+                        <strong>Sábado</strong>(8:00am-12pm)
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse18" aria-expanded="false" aria-controls="collapseThree">
+                        Locación
+                      </button>
+                    </h2>
+                    <div id="collapse18" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="contact ">
+      <div class="container text-bg-dark p-3">
+            <footer class="py-5">
+              <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Section</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col-md-5 d-flex offset-md-1 mb-3">
+                  <form >
+                    <h5>Suscribete</h5>
+                    <p>Dejanos tu correo para mas información</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Correo electronico</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Email address" style="width:auto px;">
+                      <button class="btn btn-primary" type="button">Suscribete</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </footer>
+      
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-md-lg-x1-4 border-top"  >
+          
+          <div class="col-md-md-lg-x1-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-white text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24">
+                  <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-white">© 2023 Company, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-md-lg-x1-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-white" href="https://twitter.com">
+                  <svg class="bi" width="24" height="24" role="img">
+                  <use xlink:href="https://twitter.com"></use>
+                  <img src="./img/icons8-twitter-64.png" class="rounded float-end" alt="..." style="width: 50px;">
+                  </svg>
+              </a>
+          </li>
+            <li class="ms-3">
+              <a class="text-white" href="https://www.instagram.com">
+                  <svg class="bi" width="24" height="24" >
+                  <use xlink:href="https://www.instagram.com"></use>
+                  <img src="./img/icons8-instagram-viejo-50.png" class="rounded float-end" alt="..." style="width: 44px;">
+                  </svg>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-white" href="https://www.facebook.com">
+                  <svg class="bi" width="24" height="24">
+                      <use xlink:href="https://www.facebook.com"></use>
+                      <img src="./img/icons8-facebook-96(-xxxhdpi).png" class="rounded float-end" alt="..." style="width: 50px;">
+                  </svg>   
+              </a>
+              </li>
+          </ul> 
+      </footer>
+      </div>
+  </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
